@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="GitHub Pagesで公開するための小さな個人サイトのスターターです。"
+    />
+    <title>Your Name | GitHub Pages</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="トップへ">Your Name</a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero.png" alt="" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">github.io starter</p>
+          <h1 id="hero-title">小さく作って、すぐ公開する。</h1>
+          <p class="hero-copy">
+            ここはあなたの作品、メモ、プロフィールを置くための最初のページです。
+            名前や文章を差し替えれば、そのままGitHub Pagesで公開できます。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">作品を見る</a>
+            <a class="button secondary" href="#contact">連絡する</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">about</p>
+          <h2 id="about-title">このサイトについて</h2>
+        </div>
+        <p class="lead">
+          GitHub Pagesは、HTML、CSS、JavaScript、画像などの静的ファイルを公開できます。
+          この雛形はビルドなしで動くので、まずは仕組みをつかむ用途に向いています。
+        </p>
+      </section>
+
+      <section id="work" class="section" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">work</p>
+          <h2 id="work-title">置いてみるもの</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="card-number">01</span>
+            <h3>プロフィール</h3>
+            <p>自己紹介、活動内容、使っている技術、好きなテーマなど。</p>
+          </article>
+          <article class="work-card">
+            <span class="card-number">02</span>
+            <h3>作品リンク</h3>
+            <p>GitHubリポジトリ、制作物、記事、実験ページへのリンク。</p>
+          </article>
+          <article class="work-card">
+            <span class="card-number">03</span>
+            <h3>メモ置き場</h3>
+            <p>学習ログ、読書メモ、セットアップ手順、公開してよい記録。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">contact</p>
+          <h2 id="contact-title">リンクを差し替えるだけ。</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://x.com/" target="_blank" rel="noreferrer">X</a>
+          <a href="mailto:hello@example.com">Email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <small>&copy; <span id="year"></span> Your Name. Published with GitHub Pages.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
